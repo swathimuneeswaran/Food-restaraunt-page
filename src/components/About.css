@@ -1,0 +1,111 @@
+/* .about{
+    background-color: white!important;
+    height: 700px;
+} */
+
+.head_about{
+    font-size: 50px;
+   text-align: center;
+   margin-top: 50px;
+}
+
+.head_about span{
+    font-size: 50px;
+    font-weight: bold;
+    color:red;
+    font-style: italic;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contain_box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    margin-top: 70px;
+}
+
+.contain_box1 img{
+    width:320px;
+    height:350px
+}
+
+.contain_box1 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:700px;
+    gap:20px;
+    font-weight: lighter;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+
+
+
+.contain_box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    margin-top: 70px;
+}
+
+.vision{
+    margin-left:1100px;
+    font-size: 50px;
+}
+
+
+.contain_box2 img{
+    width:320px;
+    height:350px
+}
+
+.contain_box2 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:700px;
+    gap:20px;
+    font-weight: lighter;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.contain_box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    margin-top: 70px;
+}
+
+.mission{
+    padding-left: 270px;
+    font-size: 50px;
+}
+
+
+.contain_box3 img{
+    width:320px;
+    height:350px
+}
+
+.contain_box3 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:700px;
+    gap:20px;
+    font-weight: lighter;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}

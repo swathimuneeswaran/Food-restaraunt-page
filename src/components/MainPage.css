@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.main_contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+#head{
+    font-size: 56px;
+    transition: color 6s;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    position: relative;
+   
+}
+
+.slogan {
+    font-size: 24px;
+    font-weight: 200;
+    position: absolute;
+    top:190px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    animation-delay: 2s; /* Adjust the delay to match the duration of the first animation */
+  }
+
+#head:hover{
+    color:red;
+}
+
+.food_img{
+    width:500px;
+    height:500px;
+    margin-top: 50px;
+    animation-name: floatRightDown;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes floatRightDown {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
